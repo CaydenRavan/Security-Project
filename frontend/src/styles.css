@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #1f2937;
+}
+
+.app-shell {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a, nav button {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #0f172a;
+  background: white;
+  border: 1px solid #cbd5e1;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+button.primary {
+  background: #2563eb;
+  color: white;
+  border: none;
+}
+
+.message {
+  margin-top: 12px;
+}
